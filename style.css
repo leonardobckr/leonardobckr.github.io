@@ -1,0 +1,593 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    font-size: 19px;
+}
+
+@font-face {
+  font-family: "titulos";
+  src: url("fontes/PublicSans-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "paragrafos";
+  src: url("fontes/Nunito-VariableFont_wght.ttf") format("truetype");
+}
+
+.link_clipe,
+p,
+li {
+    font-family: "paragrafos", sans-serif;
+}
+
+h2 {
+    font-family: "titulos", sans-serif;
+    font-size: 33px;
+}
+
+.cabeçalho {
+    width: 100%;
+    height: 110px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.lado_rosa {
+    background-color: #9b92d4;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+.lado_tour {
+    background-color: #7c1e26;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+.logo_site1 {
+    width: 90px;
+    height: auto;
+}
+
+.nome_album1 {
+    width: 200px;
+    text-align: center;
+    font-family: "inicio", sans-serif;
+}
+
+.logo_site2 {
+    width: 180px;
+    height: auto;
+}
+
+.nome_tour {
+    width: 200px;
+    text-align: center;
+    
+}
+
+.logo_or {
+    width: 130px;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.yspsfagsil {
+    background-color: #fcb8cb;
+    padding-top: 35px;
+    border-top: 20px solid #8dbbd1;
+    background-image:
+        radial-gradient(rgba(255,255,255,0.20) 1px, transparent 1px);
+
+    background-size: 18px 18px;
+    margin-bottom: 0;
+}
+
+.intro_album {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 25px;
+    padding: 40px 60px;
+}
+
+.introducao_album {
+    width: 246px;
+    background-color: #eae6e7;
+    padding: 30px 50px;
+    margin: 25px 50px;
+    border-radius: 6px;
+}
+
+.capa_album {
+    width: 270px;
+    border-radius: 20px;
+    border: 8px solid #885104;
+    transform: rotate(2deg);
+}
+
+.area_tracklist {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding-bottom: 75px;
+}
+
+.tracklist {
+    background-color: #b6b0d8;
+    padding: 15px 30px;
+    width: 350px;
+    border-radius: 6px;
+    transform: rotate(-0.7deg);
+}
+
+.sticker1 {
+    position: absolute;
+    width: 80px;
+    top: -25px;
+    left: 23%;
+    transform: translateX(-50%) rotate(-10deg);
+    z-index: 2;
+}
+.sticker2 {
+    position: absolute;
+    width: 70px;
+    right: 20%;
+    bottom: 30px;
+    z-index: 2;
+}
+
+.area_dropdead {
+    background-color: #fa83a5;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    margin-bottom: 10px;
+    background-image:
+    radial-gradient(rgba(255,255,255,0.20) 1px, transparent 1px);
+    background-size: 18px 18px;
+}
+.logo_dd {
+    position: absolute;
+    width: 60%;
+    top: -130px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.texto_dropdead {
+    width: 250px;
+    background-color: #fbb2ff;
+    padding: 28px 30px;
+    margin: 25px 25px;
+    border-radius: 6px;
+}
+
+.clipe_dd {
+    width: 310px;
+    border-radius: 9px;
+}
+
+.area_rosa2 {
+    background-color: #fa83a5;
+    padding-top: 25px;
+    border-top: 20px solid #8dbbd1;
+    padding-bottom: 25px;
+    border-bottom: 20px solid #8dbbd1;
+    background-image:
+    radial-gradient(rgba(255,255,255,0.20) 1px, transparent 1px);
+    background-size: 18px 18px;
+}
+
+.titulo_tabela {
+    text-align: center;
+}
+
+.tabela_feitos {
+    width: 90%;
+    margin: 30px auto;
+    border-collapse: separate;
+    border-spacing: 15px;
+}
+
+.tabela_feitos td {
+    background-color: #fff7f9;
+    border: 2px solid white;
+    padding: 20px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 7px;
+    font-family: "paragrafos", sans-serif;
+}
+
+.titulo_carta1 {
+    text-align: left;
+}
+
+.area_carta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 190px;
+    margin: 60px 0;
+}
+
+.foto_plantas {
+    width: 250px;
+    border-radius: 7px;
+    transform: rotate(9deg)
+}
+
+.carta1 {
+    width: 250px;
+    background-color: #fca0d3;
+    padding: 15px 30px;
+    border-radius: 6px;
+    transform: rotate(-2deg);
+}
+
+.area_carta2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 190px;
+    margin-top: -20px;
+    border-bottom: 20px solid #9b92d4;
+}
+
+.carta2 {
+    width: 400px;
+    background-color: #fca0d3;
+    padding: 15px 30px;
+    border-radius: 6px;
+    transform: rotate(2deg);
+}
+
+.foto_balanco {
+    width: 250px;
+    border-radius: 7px;
+    transform: rotate(-11deg);
+}
+
+.the_cure {
+    background-color: #a5c7da;
+    border-top: 50px solid #a5c7da;
+    border-bottom: 50px solid #a5c7da;
+     background-image:
+        radial-gradient(rgba(255,255,255,0.20) 1px, transparent 1px);
+
+    background-size: 18px 18px;
+}
+
+.area_carta3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px 60px;
+    margin-bottom: 35px;
+}
+
+.carta3 {
+    width: 350px;
+    background-color: #db9f9d;
+    padding: 15px 30px;
+    border-radius: 7px;
+}
+
+.logo_the_cure {
+    width: 250px;
+    transform: rotate(18deg);
+}
+
+.sobre_cure {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.musica_cure {
+    background-color: #98a7aa;
+    padding: 15px 30px;
+    width: 250px;
+    border-radius: 6px;
+    transform: rotate(0.7deg);
+}
+
+.capa_cure {
+    position: absolute;
+    width: 80px;
+    top: 90%;
+    left: 50%;
+    transform: translateX(-50%) rotate(-10deg);
+    z-index: 2;
+}
+
+
+.adesivo_cure {
+     position: absolute;
+    width: 80px;
+    top: -45px;
+    left: 50%;
+    transform: translateX(50%) rotate(30deg);
+}
+
+.area_charts_cure {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 206px;
+    padding: 40px 60px;
+}
+
+.charts_cure {
+    width: 246px;
+    background-color: #e4b48b;
+    padding: 15px 30px;
+    border-radius: 8px;
+    transform: rotate(-3deg);
+}
+
+.foto_arvore {
+    width: 250px;
+    border-radius: 7px;
+}
+
+.area_clipe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 190px;
+    padding-bottom: 100px;
+}
+
+.clipe_cure2 {
+    width: 240px;
+    background-color: #cdcccc;
+    padding: 15px 30px;
+    border-radius: 8px;
+    transform: rotate(3deg);
+}
+
+.clipe_cure {
+    width: 250px;
+    border-radius: 7px;
+    border: 8px solid rgb(209, 161, 94);
+    transform: rotate(3deg);
+}
+
+.link_clipe {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    background-color: #648ea6;
+    padding: 15px 30px;
+    border-radius: 50px;
+    margin-left: 40px;
+}
+
+.show {
+    background-color: #484177;
+    border-top: 20px solid #7c1e26;
+    padding: 100px 8%;
+    border-bottom: 20px solid #fcb8cb;
+}
+
+.sobre_show {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.logo_lolla {
+    width: 23%;
+    height: auto;
+    transform: rotate(3deg);
+}
+
+.brasil {
+    width: 13%;
+    height: auto;
+    border-radius: 6px;
+    transform: rotate(-3deg);
+}
+
+.texto_show {
+    width: 35%;
+    background-color: #d7c93c;
+    padding: 15px 30px;
+    border-radius: 5px;
+    transform: rotate(-3deg);
+}
+
+.titulo_mural {
+    color: #d7c93c;
+    text-align: center;
+    padding: 30px;
+}
+
+.mural_geral {
+    background-color: #bbae1bde;
+    padding: 15px 30px;
+    border-radius: 8px;
+    transform: rotate(-2deg);
+    padding-bottom: 100px;
+}
+
+.area_mural1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 115px;
+    padding: 150px;
+}
+
+.area_mural2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 150px;
+    gap: 15px;
+}
+
+.area_mural3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 150px;
+    gap: 15px;
+}
+
+.area_mural4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 15px;
+}
+
+.mural1 {
+    width: 250px;
+    border-radius: 7px;
+}
+
+.mural2 {
+    width: 250px;
+    border-radius: 6px;
+}
+
+.mural3 {
+    width: 250px;
+    border-radius: 7px;
+}
+
+.mural4 {
+    width: 250px;
+    border-radius: 6px;
+}
+
+.mural6 {
+    width: 250px;
+    border-radius: 7px;
+}
+
+.mural7 {
+    width: 250px;
+    border-radius: 6px;
+}
+
+.mural8 {
+    width: 250px;
+    border-radius: 7px;
+}
+
+.mural9 {
+    width: 250px;
+    border-radius: 6px;
+}
+
+.mural10 {
+    width: 325px;
+    border-radius: 7px;
+    transform:rotate(5deg);
+}
+
+.mural11 {
+    width: 320px;
+    border-radius: 6px;
+    transform: rotate(4deg);
+}
+
+.mural12 {
+    width: 250px;
+    border-radius: 7px;
+}
+
+@media (max-width: 600px) {
+
+    .intro_album {
+        flex-direction: column;
+        padding: 30px 20px;
+        gap: 20px;
+    }
+
+    .introducao_album {
+        width: auto;
+        margin: 10px;
+    }
+
+    .capa_album {
+        width: 220px;
+    }
+
+    .area_carta,
+    .area_carta2,
+    .area_carta3,
+    .area_charts_cure,
+    .area_clipe {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .carta1,
+    .carta2,
+    .carta3,
+    .charts_cure,
+    .clipe_cure2 {
+        width: auto;
+        max-width: 300px;
+    }
+
+    .foto_plantas,
+    .foto_balanco,
+    .foto_arvore,
+    .clipe_cure {
+        width: 220px;
+    }
+
+    .tabela_feitos {
+        width: 95%;
+        border-spacing: 8px;
+    }
+
+    .tabela_feitos tr {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .tabela_feitos td {
+        width: 100%;
+    }
+
+    .sobre_show {
+        flex-direction: column;
+    }
+
+    .logo_lolla,
+    .brasil,
+    .texto_show {
+        width: 80%;
+    }
+}
+
